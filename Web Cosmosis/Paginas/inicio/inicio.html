@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmosis</title>
+    <link rel="stylesheet" href="inicio.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+   <script src="inicio.js" defer></script>
+   <link rel="icon" href="/Img/Logo.png">
+  </head>
+  <body>
+    <header>
+        <nav class="nav">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <a href="#" class="logo">{ Cosmosis }</a>
+        <ul class="nav-links">
+            <i class="uil uil-times navCloseBtn"></i>
+            <li><a href="/paginas/inicio/inicio.html">Inicio</a></li>
+            <li><a href="/paginas/servicios/Servicios.html">Servicios</a></li>
+            <li><a href="https://discord.gg/KREa9JH8FF" target="_blank">Soporte</a></li>
+            <li><a href="#">Contactos</a></li>
+        </ul>
+
+        <i class="uil uil-search search-icon" id="searchIcon"></i>
+        <div class="search-box">
+            <i class="uil uil-search search-icon"></i>
+            <input type="text" placeholder="Search here..." />
+        </div>
+        </nav>
+    </header>
+    <section class="homepage" id="home">
+        <div class="content">
+          <div class="text">
+            <h1>Bienvenido a <Span class="Titulo-Color">{ Cosmosis }</Span></h1>
+            <p>Facil & Eficiente</p>
+            <a clas="Informacion" href="#info" style="color: #6C8865"><Input:btn></Input:btn>Informacion</a>
+          </div>
+          <a href=""></a>
+        </div>
+    </section>
+    
+    <script>
+        const text = document.querySelector(".Titulo-Color");
+
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "{ Cosmosis }";
+            }, 0);
+        }
+        
+
+        textLoad();
+        setInterval(textLoad, 12000);
+    </script>
+
+
+    <div class="container-2" id="info">
+        <div class="info">
+            <div class="card">
+                <i class="bx bxs-meteor" style="color:#9B6E5E"></i>
+                <span>Funcionalidad</span>
+                <div></div>
+                <p>
+                    Este sitio web ha sido creado con el propósito de asistir a los estudiantes en su día a día académico.
+                </p>
+            </div>
+            <div class="card">
+                <i class="bx bxs-bolt" style="color:#9B6E5E"></i>
+                <span>Velocidad</span>
+                <div></div>
+                <p>
+                    Aquí, tendrás acceso rápido a diversas funciones sin tiempos de carga ni interrupciones en la página.
+                </p>
+            </div>
+            <div class="card">
+                <i class='bx bxs-traffic-barrier' style="color:#9B6E5E"></i>
+                <span>Privacidad</span>
+                <div></div>
+                <p>
+                    En ningún momento se te solicitará introducir información personal para acceder a los servicios de esta página. Se busca mantener un enfoque en el anonimato y la privacidad en su totalidad.
+                </p>
+            </div>
+            <div class="card">
+                <i class='bx bxs-folder' style="color:#9B6E5E"></i>
+                <span>Pagina 24/7</span>
+                <div></div>
+                <p>Este sitio estará disponible y en funcionamiento las 24 horas, todos los días.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Copyright © {Cosmosis} 2023 • Jorge Ramirez</div>
+    <div class="footer2">&nbsp;|&nbsp;<a href="https://discord.gg/EAdgahtaXg" target="_blank" style="color: #718EA9;">Discord</a>&nbsp;|&nbsp;<a href="https://www.instagram.com/usuario201531/?next=%2F" target="_blank" style="color: #A98871;">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/Cosmosisx" target="_blank" style="color: #909090;">Github</a>&nbsp;|&nbsp;<a href="" target="_blank" style="color: #718EA9;">Telegram</a>&nbsp;|&nbsp;<a href="" target="_blank" style="color: #71A980;">whatsapp</a>&nbsp;|&nbsp;</div>
+
+  </body>
+</html>
